@@ -18,3 +18,7 @@ Q5 - Is this a merge or a rebase?
    
 Q6 - Person B: checkout the local master branch. Is it updated as well, or still behind remote master?
    It is 1 step behind
+
+Q7 - Run git branch. Did your local copy of your branch delete when Person A deleted the remote branch? No
+If not, delete the local copy of the branch using git branch -d BRANCHNAME.
+You told us not to worry about thsi step because terminal wasn't cooperating.
